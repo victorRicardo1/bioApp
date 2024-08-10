@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "bioApp:build:production"
+              "buildTarget": "bioApp:build:production"
             },
             "development": {
-              "browserTarget": "bioApp:build:development"
+              "buildTarget": "bioApp:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "bioApp:build"
+            "buildTarget": "bioApp:build"
           }
         },
         "test": {
@@ -94,5 +94,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "a1b708c7-cb62-4a10-aa82-c1ae9c290ac2"
   }
 }
