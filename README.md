@@ -11,4 +11,7 @@ The database is not confirmed yet
 
 I hope u guys enjoy when the first version of this project launch. In the development I will open the repo to receive contribuitors and feedback
 
+
+UPDATES UNTILL NOW: We got the figma design already
+
 ## Thanks
